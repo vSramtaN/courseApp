@@ -1,0 +1,80 @@
+* {
+  font-family: sans-serif;
+}
+
+.courseMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 4vh;
+}
+
+.cardPrice {
+  font-style: italic;
+  color: red;
+}
+
+.cardDeleteBtn {
+  padding: 6px;
+  font-size: 15px;
+  width: 100px;
+  height: 45px;
+  border: none;
+  margin: 6px;
+  background-color: rgb(216, 213, 213);
+  color: black;
+  margin-right: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.cardDeleteBtn:hover {
+  background-color: red;
+  box-shadow: 10px 10px 68px 15px rgba(255, 0, 0, 1);
+  letter-spacing: 1.5px;
+  transform: rotateX(20deg);
+  color: white;
+}
+
+.f5Div {
+  text-align: center;
+}
+
+.f5Button{
+   
+    border: 1px solid green;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(17, 148, 17, 0.959);
+    color: white;
+    transition: all 1.5s;
+    font-size: 20px;
+    text-align: center;
+}
+
+.f5Button:hover{
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    box-shadow: 10px 10px 41px 19px rgba(26, 152, 26, 1);
+    transition: all 0.9s;
+    transform: rotateY(10deg);
+}
